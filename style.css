@@ -1,0 +1,204 @@
+#background {
+  background-image: linear-gradient(to bottom, #A1BDB7, #60B7E4);
+}
+
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    overflow: hidden;
+}
+
+li.menu{
+    float:left;
+    list-style: none;
+}
+
+li.menu a{
+    display: block;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 23px;
+}
+
+li.menu a:hover {
+    background-color: #6AB8DF;
+    color: white;
+    font-weight: bold;
+    font-size: 27x;
+    text-decoration: underline;
+}
+    
+
+/* making the nav bar responsive when resizing the browser - source https://www.w3schools.com/howto/howto_css_sidebar_responsive.asp*/
+@media screen and (max-width: 650px) {
+  .menu {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+}
+
+h2 {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Roboto Slab';
+    font-size: 35px;
+}
+
+h3 {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 28px;
+}
+
+div#home_table{
+    margin-bottom: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+div#office_table{
+    margin-top: 7vw;
+    margin-bottom: 100px;
+    margin-left: 12vw;
+    margin-right: 12vw;
+
+}
+
+table#office_table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    font-family: "Roboto";
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+/* div for table*/
+.table_column {
+    width: 100%;
+}
+
+div#payment_table{
+    margin-top: 5vw;
+    margin-left: 2vw;
+    width: 40vw;
+    float: left;
+    overflow-x: auto; /*overflow-x:auto makes the tables responsive when browser window is resized*/
+    margin-bottom: 100px;
+}
+
+div#extra{
+    width: 40vw;
+    margin-left: 50vw;
+    overflow-x: auto; /*overflow-x:auto makes the tables responsive when browser window is resized*/
+    margin-bottom: 50px;
+}
+table#payment_table, table#extra {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    font-family: "Roboto";
+    font-size: 15px;
+    width: 0%;
+    text-align: center;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    font-family: "Roboto";
+    font-size: 15px;
+}
+
+th {
+    background-color: #6AB8DF;
+    color: black;
+    font-family: "Roboto Slab";
+    font-size: 18px;
+}
+      
+table tr:nth-child(odd) {
+    background-color: #f1f1f1;
+}
+table tr:nth-child(even) {
+    background-color: #ffffff;
+}
+table td:nth-child(1) {
+    font-size: 19px;
+    font-family: 'Patua One';
+}
+
+button.more_info{
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+input.more_info{
+    cursor: pointer; 
+    border-radius: 5px;
+    font-size: 15px;
+    width: 70px;
+    font-weight: bold;
+}
+label#dropdown{
+    margin-left: 2vw;
+    font-size: 19px;
+    font-family: 'Patua One';
+}
+
+select {
+    margin-left: 2vw;
+    margin-bottom: 10px;
+    background: #6AB8DF;
+    color: black;
+    cursor: pointer;
+    height: 30px;
+    width: 100px;
+    font-size: 15px;
+    align-content: center;
+    font-family: "Poppins";
+}
+
+#submit {
+    margin-left: 2vw;
+    border-radius: 5px;
+    background-color: #fffff;
+    border: none;
+    color: black;
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 16px;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    color: white;
+    font-weight: bold;
+    background-color: #6AB8DF;   
+}
+
+footer{
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    font-family: 'Roboto';
+    font-size: 14px;
+    text-align: right;
+    opacity: 0.8;
+    
+}
